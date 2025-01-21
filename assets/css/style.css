@@ -190,6 +190,7 @@ main {
 
             div:last-of-type {
                 font-weight: bold;
+                color: black;
             }
 
             div:last-of-type span:first-of-type {
