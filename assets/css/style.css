@@ -1,0 +1,112 @@
+/*#region general-utility*/
+
+:root {
+    --primary-color: #ff6900;
+    --secondary-color: #ebebeb;
+    --dark-color: #1a1a1a;
+    --background-color: #ffffff;
+    --big-discount-color: #ff0000;
+    --renewable-color: #008000;
+}
+
+* {
+    border: 0;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.d-flex {
+    display: flex;
+}
+
+/*#endregion general-utility*/
+
+/*#region debug*/
+.debug {
+
+    header {
+        background-color: red;
+
+        section {
+            background-color: orange;
+
+            div {
+                background-color: rosybrown;
+            }
+        }
+    }
+
+    main {
+        background-color: green;
+
+        section {
+            background-color: lightblue;
+
+            div {
+                background-color: blueviolet;
+            }
+        }
+    }
+
+    footer {
+        background-color: pink;
+
+        section {
+            background-color: orange;
+
+            div {
+                background-color: aqua;
+            }
+        }
+    }
+}
+
+/*#endregion debug*/
+
+
+/*#region header*/
+
+header {
+    background-color: red;
+
+    section {
+        background-color: orange;
+
+        div {
+            background-color: rosybrown;
+        }
+    }
+}
+
+/*#region header*/
+
+/*#region main*/
+main {
+    background-color: green;
+
+    section {
+        background-color: lightblue;
+
+        div {
+            background-color: blueviolet;
+        }
+    }
+}
+
+/*#endregion main*/
+
+/*#region footer*/
+footer {
+    background-color: pink;
+
+    section {
+        background-color: orange;
+
+        div {
+            background-color: aqua;
+        }
+    }
+}
+
+/*#endregion footer*/
