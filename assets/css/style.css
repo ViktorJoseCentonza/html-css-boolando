@@ -18,6 +18,7 @@
 
 .d-flex {
     display: flex;
+
 }
 
 /*#endregion general-utility*/
@@ -31,8 +32,15 @@
         section {
             background-color: orange;
 
+            nav {
+                background-color: blue;
+
+            }
+
             div {
                 background-color: rosybrown;
+
+
             }
         }
     }
@@ -68,14 +76,30 @@
 /*#region header*/
 
 header {
-    background-color: red;
 
     section {
-        background-color: orange;
+        width: 70%;
+        position: sticky;
+        justify-self: center;
+        justify-content: space-between;
 
-        div {
-            background-color: rosybrown;
+        .logo-container {
+            margin: 0.5rem 0;
+
+            /*applied here but moves all elements in header*/
+            img {
+                height: 30px;
+
+            }
+
         }
+
+        nav {
+            gap: 1rem;
+            align-items: center;
+        }
+
+        div {}
     }
 }
 
@@ -83,13 +107,16 @@ header {
 
 /*#region main*/
 main {
-    background-color: green;
+    justify-self: center;
+    width: 70%;
 
     section {
-        background-color: lightblue;
+        justify-content: space-between;
+        padding: 3rem 0;
 
         div {
-            background-color: blueviolet;
+            padding: 0;
+            /*placeholder*/
         }
     }
 }
@@ -98,14 +125,13 @@ main {
 
 /*#region footer*/
 footer {
-    background-color: pink;
+    justify-self: center;
+    width: 70%;
 
     section {
-        background-color: orange;
+        justify-content: space-between;
 
-        div {
-            background-color: aqua;
-        }
+        div {}
     }
 }
 
