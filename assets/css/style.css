@@ -14,12 +14,18 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    text-decoration: none;
+
 
 }
 
 .d-flex {
     display: flex;
 
+}
+
+a {
+    color: var(--background-color);
 }
 
 /*#endregion general-utility*/
@@ -78,6 +84,7 @@
 
 header {
     background-color: var(--primary-color);
+    color: var(--background-color);
 
     section {
         width: 70%;
@@ -206,17 +213,29 @@ main {
 
 /*#region footer*/
 footer {
+    color: var(--background-color);
     background-color: var(--dark-color);
-    justify-self: center;
     width: 100%;
-
+    padding: 2rem;
     margin-top: 3rem;
 
     section {
+        justify-self: center;
         width: 70%;
         justify-content: space-between;
 
+        div:first-of-type div:first-of-type {
+            font-size: xx-large;
+            padding: 1rem 0;
+        }
 
+        div {
+            padding: 0.5rem 0;
+
+            a {
+                padding: 2rem 1rem 0px 0px;
+            }
+        }
     }
 }
 
