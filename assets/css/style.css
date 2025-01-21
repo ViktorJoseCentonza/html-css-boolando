@@ -123,6 +123,7 @@ main {
         padding: 3rem 0;
 
         .img-container {
+            color: var(--background-color);
             background-color: var(--secondary-color);
             position: relative;
             height: 550px;
