@@ -83,10 +83,15 @@ a {
 /*#region header*/
 
 header {
+    z-index: 4;
+    position: fixed;
+    width: 100%;
+
     background-color: var(--primary-color);
     color: var(--background-color);
 
     section {
+
         width: 70%;
         position: sticky;
         justify-self: center;
@@ -117,6 +122,7 @@ main {
     background-color: var(--background-color);
     justify-self: center;
     width: 70%;
+    padding-top: 3rem;
 
     section {
         justify-content: space-evenly;
