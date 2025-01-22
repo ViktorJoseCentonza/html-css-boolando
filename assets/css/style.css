@@ -125,7 +125,7 @@ main {
     padding-top: 3rem;
 
     section {
-        justify-content: space-evenly;
+        justify-content: space-between;
         padding: 3rem 0;
 
         .img-container {
